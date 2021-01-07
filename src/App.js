@@ -18,14 +18,7 @@ export default function App() {
     "🧑‍⚖️": "judge"
   };
 
-  //var [likeCounter,setLikeCounter]=useState(0);
-
-  // const clickHandler=()=>{
-  //  likeCounter=likeCounter +1;
-  //   setLikeCounter(likeCounter);
-  //   //console.log(likecounter);
-
-  // }
+  
   var emojisWeKnow = Object.keys(emojiDictionary);
 
   const [meaning, setMeaning] = useState("");
